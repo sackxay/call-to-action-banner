@@ -17,13 +17,17 @@ html {
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
 
-h2 {
-  font-family: 'Roboto Condensed', sans-serif;
-  display: flex;
+body {
+  margin: 0;
 }
 
-p {
-  display: flex;
+.banner h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.banner p {
+
 }
 
 span {
@@ -40,32 +44,25 @@ span {
 }
 
 .banner {
-  display: inline-block;
-  position: relative;
-  max-width: 45em;
+
 }
 
-.img-flex {
-  display: flex;
+.banner .img-flex {
+
 }
 
-img:first-child {
-  display: flex;
-  position: absolute;
+.banner img {
+
 }
 
-img:nth-child(2) {
-  width: 75%;
-  display: flex;
-  position: absolute;
-  text-align: center;
-  transform: translateX(100%);
-  margin-top: 2em;
+.image-flex img:first-child {
+
+}
+
+.image-flex img:nth-child(2) {
+
 }
 
 .bodycopy {
-  display: flex;
-  position: absolute;
-  max-width: 100%;
-  transform: translateX(200%);
+
 }
